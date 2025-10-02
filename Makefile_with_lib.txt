@@ -20,7 +20,7 @@ all: $(TEST_RUNNER)
 $(TEST_RUNNER): $(TEST_DIR)/test_tinh_tong.c $(SRC_DIR)/my_functions.c
 	$(CC) -o $@ $^ $(CFLAGS) $(LDFLAGS)
 
-# Cleanup rule - Rule để dọn dẹp các file đã biên dịch
+# Cleanup rule - Rule để dọn dẹp các file đã biên dịch 123 345
 clean:
 	rm -f $(TEST_RUNNER)
 
